@@ -31,7 +31,7 @@ class TDeviceUtils {
         enable ? SystemUiMode.immersiveSticky : SystemUiMode.edgeToEdge);
   }
 
-  static double getScreenHeight(BuildContext context) {
+  static double getScreenWidth(BuildContext context) {
     return MediaQuery.of(context).size.width;
   }
 
